@@ -5,6 +5,7 @@ Mỗi member sẽ tạo một thư mục riêng theo tên account của mình. T
 Tương ứng sẽ các bài học sẽ là một file `MD` riêng.
 
 ------------DungNT48-Start------------
+```
 .
 ├── 1.AgileCrum : DONE
 │   ├── AgileScrum.md
@@ -31,6 +32,6 @@ Tương ứng sẽ các bài học sẽ là một file `MD` riêng.
 │   │   └── metadata.plist
 │   └── viewState.plist
 └── Linux_Terminal.pdf
-
+```
 
 -------------DungNT48-End-------------
