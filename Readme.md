@@ -19,7 +19,7 @@ Tương ứng sẽ các bài học sẽ là một file `MD` riêng.
 │   │   └── viewState.plist
 │   └── AgileScrum.pdf
 │
-└── 2.LinuxLPI : tiếp tục với Linux LPI 2.  dự kiến 06 August xong
+└── 2.LinuxLPI 1 
 ├── Linux_Terminal.md
 ├── Linux_Terminal.mindnode
 │   ├── QuickLook
@@ -32,5 +32,10 @@ Tương ứng sẽ các bài học sẽ là một file `MD` riêng.
 │   └── viewState.plist
 └── Linux_Terminal.pdf
 
+Weekly Plan:
+05Aug: tìm hiểu Agile Scrum, Linux LPI 1
+06Aug: Support dự án + tìm hiểu Linux LPI 2 : focus vào Squid 
+07Aug: Support dự án + tìm hiểu Squid vs Nginx trong hệ thống mạng + create sample jenkins pipeline declarative ( source code cần build & không cần build, theo từng language )
+08Aug: Development standard ( 1 days read first , estimate more later ) 
 
 -------------DungNT48-End-------------
