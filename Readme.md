@@ -1,30 +1,17 @@
 # DevOps from Zero
-
-Mỗi member sẽ tạo một thư mục riêng theo tên account của mình. Trong mỗi thư mục có file `Readme.md` trong đó ghi rõ plan của mình và thời gian hoàn thành.
-
-Tương ứng sẽ các bài học sẽ là một file `MD` riêng.
-
-Ví dụ: Tùng có các task như sau:
-
-```
-- Learning Agile
-- Learn LPI
-   - Install Linux
-   - Linux directory structure
-   - Linux service management
-   ....
-```
-
-Vâỵ thì phần bài tập của Tùng sẽ như sau:
-
-```
-devops-from-zero
-      |
-      |- Tung
-          |- 1.agile.md
-          |- 2.LPI
-              |-install_linux.md
-              |-directory_structure.md
-              |-service_management.md
-              .....
-```
+- Week 1: 
+	1. Learn Linux
+	2. Learn Git hub
+	3. Learn Docker
+- Week 2: Learn AWS
+	1. IAM
+	2. S3
+	3. EC2
+	4. RDS
+	5. VPC
+- Week 3 Learn AWS(continue)
+	1. Elastic Load Balance (ELB)
+	2.  Route 53 DNS
+	3. CloudTrail
+	4. CloudWatch
+	
