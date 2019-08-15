@@ -58,7 +58,7 @@ $  ss -nlp | grep squid | grep 3128
 ```sh
 $  vi /etc/squid/squid.conf
 ```
-![Configuration File](/images/squid-conf.png "Squid Configuration File")
+![Configuration File](/images/squid-conf.PNG"Squid Configuration File")
 
 ## Allow Websites
 
