@@ -1,7 +1,7 @@
 **1. System File**
 
 
-![System File](SystemFolder.png)
+![System File](img/SystemFolder.png)
 
 - Relative path: start without "/"
   - Ex: etc/sysconfig 
@@ -14,12 +14,12 @@
 
 **2. common linux command**
 
-![](LinuxCommand.png)
+![common linux command](img/LinuxCommand.png)
 
 
 **3. Software install**
 
-![](SoftwareInstall.png)
+![Software install](img/SoftwareInstall.png)
 
 **4. Linux tips**
 
