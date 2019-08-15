@@ -51,5 +51,42 @@ needed
   - Membership can change only between sprints
 
 **Events:**
+- Sprint planning:
+  - plan tasks in the next sprint with priority, and time
+
+- Daily meeting:
+  - 15 minutes
+  - discuss about: 
+    - Work yesterday
+    - Work today
+    - issues
+
+- Sprint review:
+  - <= 2 hours
+  - Team presents what it accomplished
+during the sprint
+  - Typically takes the form of a demo of new
+features or underlying architecture
+
+- Sprint Retrospective
+  - Get feedback
+  - Start doing ...
+  - Stop doing ...
+  - Continue doing
 
 **Artifacts:**
+
+- Product backlog
+  - list of all task to make the project work with priority
+
+- Sprint backlog
+  - plan for a sprint, a result of a sprint planning meeting
+  - analyze priority and time
+
+- Burndown chart
+  - Depicts the total Sprint Backlog hours
+  - remaining per day
+  - Shows the estimated amount of time to
+release
+  - Ideally should burn down to zero to the
+end of the Sprint
