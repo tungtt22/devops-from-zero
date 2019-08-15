@@ -105,44 +105,51 @@ $  sudo systemctl enable  nginx
 ### Configuration with ***/etc/nginx/nginx.conf***
 * Lines preceded by a # character are comments and not interpreted by NGINX
 * Lines containing directives must end with a ;
-### The http Block: ontains directives for handling web traffic
-```sh
-http {
-    include       /etc/nginx/mime.types;
-    default_type  application/octet-stream;
-
-    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
-                      '$status $body_bytes_sent "$http_referer" '
-                      '"$http_user_agent" "$http_x_forwarded_for"';
-
-    access_log  /var/log/nginx/access.log  main;
-
-    sendfile        on;
-    #tcp_nopush     on;
-
-    keepalive_timeout  65;
-
-    #gzip  on;
-
-    include /etc/nginx/conf.d/*.conf;
-}
-```
-### Server Blocks
+#### Change root folder
 ```sh
 server {
     listen         80 default_server;
     listen         [::]:80 default_server;
-    server_name    example.com www.example.com;
-    root           /var/www/example.com;
-    index          index.html;
-    try_files $uri /index.html;
+    server_name    _;
+    #   root     /usr/share/nginx/html;
+    root         /usr/www/nginx/html;
 }
 ```
-
-### Listening Ports
+Restart Nginx
 
 ```sh
-server {
-    listen 8080;
+    systemctl restart nginx
+```
+#### Listening Ports
+
+```sh
+ server {
+        listen       8090 default_server;
+        listen       [::]:8090 default_server;
 }
+```
+Add port 8090 into firewall and reload
+```sh
+    firewall-cmd --zone=public --add-port=8090/tcp --permanent
+    firewall-cmd --reload
+```
+Restart Nginx
+
+```sh
+    systemctl restart nginx
+```
+#### Change client body size
+
+```sh
+    http {
+        log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                        '$status $body_bytes_sent "$http_referer" '
+                        '"$http_user_agent" "$http_x_forwarded_for"';
+        # set client body size to 100M
+        client_max_body_size 100M;
+```
+Restart Nginx
+
+```sh
+    systemctl restart nginx
 ```
