@@ -27,6 +27,6 @@
 
 
 **5. Linux regex:**
-"^string": start with "string"
-"string$": end with "string"
-"^$": empty
+- "^string": start with "string"
+- "string$": end with "string"
+- "^$": empty
