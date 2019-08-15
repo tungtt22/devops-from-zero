@@ -67,7 +67,7 @@ $  sudo systemctl status nginx
     >          ├─1680 nginx: master process /usr/sbin/nginx    
     >          └─1681 nginx: worker process
 ## 5. To verify your Nginx installation, open http://YOUR_IP in your browser
-![Welcome Nginx](nginx-screenshot.jpg "Welcome Nginx")
+![Welcome Nginx](~/images/nginx-screenshot.jpg "Welcome Nginx")
 
 # Manage the Nginx Service with systemctl
 ## 1. To stop the Nginx service, run:
