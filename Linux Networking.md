@@ -89,3 +89,25 @@
 
 # SSH CLINET & SERVER
 * The secure shell or ssh is a collection of tools using a secure protocol for communications with remote Linux computers
+# About ssh
+## 1. Secure shell
+* Avoid using **telnet**, **rlogin** and **rsh** to remotely connect to your servers.(These old protocol do not encrypt the login session)
+* The ssh protocol is secure in two ways. Firstly the connection is **encrypted** and secondly the connection is **authenticated** both ways
+* An ssh connection always start with a cryptographic handshake, followed by **encryption** of the transport layer using a symmetric cypher. In other words, the tunnel is encrypted before you start typing anything
+* Then **authentication** takes place (using user id/password or public/private key) and communication can begin over the encrypted connection
+* The ssh **protocol** will remember the server it connected to (and warn you in case somethig suspicious happened)
+* The **openssh** package is maintained by the **OpenBSD** people and is distributed with a lot of operating system
+
+## 2. /etc/ssh
+* Configuraion of ssh client and server is done in the **/etc/ssh/** directory
+## 3. ssh protocol versions
+* The ssh protocol has two version ( 1 and 2). Avoid using version 1 anywhere, since it contains some know vulnerabilities
+* You can control the protocol version via /etv/ssh/ssh_config for the client side and /etc/ssh/sshd_config for the openssh-server daemon
+
+## 4. public and priavte keys
+* The ssh protocol uses the well know system of **public and private keys**. The below explanation is succunct, more information can be found on wikipedia.
+[https://en.wikipedia.org/wiki/Public-key_cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) 
+ 
+## 5. rsa and dsa algorithms 
+* https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+* https://en.wikipedia.org/wiki/Digital_Signature_Algorithm
