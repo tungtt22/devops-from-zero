@@ -18,7 +18,7 @@ Daily plan:
 - Learn japanese. (2 hours)
 ```
 Make dream come true (Update everyday):
- - Network.
+ - Network. [Link](DuongHX/Network) (Last Update 19/08/2019)
  - HORENSO.
  - SOLID.
  - KISS.
