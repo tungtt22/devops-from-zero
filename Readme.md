@@ -1,30 +1,17 @@
 # DevOps from Zero
 
-Mỗi member sẽ tạo một thư mục riêng theo tên account của mình. Trong mỗi thư mục có file `Readme.md` trong đó ghi rõ plan của mình và thời gian hoàn thành.
-
-Tương ứng sẽ các bài học sẽ là một file `MD` riêng.
-
-Ví dụ: Tùng có các task như sau:
-
+My Plan from 19/08 to 23/08:
 ```
-- Learning Agile
-- Learn LPI
-   - Install Linux
-   - Linux directory structure
-   - Linux service management
-   ....
+- Install jenkins.
+- Install Nexus.
+  - Config Java maven push artifactory to Nexus.
+- Install Gitlab.
+  - Create Java maven project and push to Gitlab server.
+- Run CI on jenkins.
 ```
 
-Vâỵ thì phần bài tập của Tùng sẽ như sau:
-
+Daily plan:
 ```
-devops-from-zero
-      |
-      |- Tung
-          |- 1.agile.md
-          |- 2.LPI
-              |-install_linux.md
-              |-directory_structure.md
-              |-service_management.md
-              .....
+- Read book:05-Computer.Networking.A.TopDown.Approach.6th.Edition (30 minutes).
+- Learn japanese. (2 hours)
 ```
