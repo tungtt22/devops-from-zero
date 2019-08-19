@@ -9,6 +9,8 @@ My Plan from 19/08 to 23/08:
   - Create Java maven project and push to Gitlab server.
 - Run CI on jenkins.
 ```
+- Link to task:
+  - Install Jenkins: [link](DuongHX/InstallJenkins)
 
 Daily plan:
 ```
