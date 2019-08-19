@@ -10,7 +10,7 @@ My Plan from 19/08 to 23/08:
 - Run CI on jenkins.
 ```
 - Link to task:
-  - Install Jenkins: [link](DuongHX/InstallJenkins)
+  - Install Jenkins: [link](DuongHX/Install-Jenkins)
 
 Daily plan:
 ```
