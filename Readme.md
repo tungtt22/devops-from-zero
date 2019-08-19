@@ -17,3 +17,10 @@ Daily plan:
 - Read book:05-Computer.Networking.A.TopDown.Approach.6th.Edition (30 minutes).
 - Learn japanese. (2 hours)
 ```
+Make dream come true (Update everyday):
+ - Network.
+ - HORENSO.
+ - SOLID.
+ - KISS.
+ - YAGNI.
+ - DRY.
