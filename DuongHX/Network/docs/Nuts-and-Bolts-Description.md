@@ -1,0 +1,8 @@
+## A Nuts-and-Bolts Description (Những cái cơ bản hay chi tiết của một thứ gì đó)
+
+- Internet là một mạng máy tính mà kết nối hàng trăm triệu thiết bị điện toán trên toàn thế giới.
+- Cách đây không lâu, các thiết bị điện toán này chủ yếu là các máy tính để bàn truyền thống, máy trạm Linux, và máy chủ đóng vai trò lưu trữ và truyền thông tin như các trang Web và tin nhắn e-mail ngày càng phát triển.
+- Tuy nhiên, các hệ thông internet thuộc loại phi truyền thống như là laptop, smartphones, tablets, TVs, gaming console, automobiles, environmental sensing devices, picture frames, và hệ thống bảo mật và điện trong gia đình hiện nay đang được kết nối với Internet. Thật vậy, thuật ngữ mạng máy tính có vẻ hỏi lạc hậu , đưa ra nhiều thiết bị phi truyền thống có thể kết nối được internet (hiện nay còn có cuộc cách mạng 4.0trong đó có vạn vật kết nối internet-IOT).
+- Tính đến tháng 7 năm 2011 có khoảng 850 triệu hệ thống đầu cuối được kết nối với Internet, chưa kể điện thoại thông minh, máy tính xách tay và các thiết bị khác có kết nối không liên tục với Internet. Nhìn chung, ước tính khoảng 2 tỷ người dùng Internet.
+- Các hệ thống đầu cuối được kết nối với nhau bằng một mạng lưới các liên kết truyền thông và gói chuyển mạch (packet switches). Ta sẽ thấy trong phần [The Network Edge]() có nhiều loại liên kết truyền thông được tạo thành từ các loại thiết bị vật lý khác nhau, bao gồm cả đồng trục cáp, dây đồng, cáp quang, và phổ tần số vô tuyến. Các liên kết khác nhau có thể truyền dữ liệu ở các tốc độ khác nhau, với tốc độ truyền của một liên kết được đo bằng bit/s. Khi một hệ thống đầu cuối có dữ liệu gửi đến một hệ thống đầu cuối khác thì hệ thống đầu cuối mà gửi đi sẽ phân đoạn dữ liệu(segments data) và thêm tiêu đề(header) cho mỗi phân đoạn. 
+
