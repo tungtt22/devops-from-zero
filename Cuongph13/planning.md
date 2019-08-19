@@ -14,7 +14,7 @@
 | 4.6 | Compose CLI |  |  | Not Start | | |
 | 4.7 | Composing compose |  |  | Not Start | | |
 | 4.8 | Compose in Production |  |  | Not Start | | |
-| 5  | AWS:  | 6/9 | 40h | Not Start     |     |
+| 5  | AWS:  | 10/9 | 40h | Not Start     |     |
 | 5.1 |  - VPC |       | | Not Start |     |
 | 5.2 |  - Nat Instance, GateWays| | | Not Start  |     |
 | 5.3 |  - EC2 |       | | Not Start |     |
