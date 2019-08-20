@@ -13,6 +13,7 @@ My Plan from 19/08 to 23/08:
   - Install Jenkins: [link](DuongHX/Install_Jenkins)(Update 19/08/2019)
   - Install Nexus: [link](DuongHX/Install_Nexus)(Update 20/08/2019)
     - Config Java maven push artifactory to Nexus. [link](DuongHX/Push-Artifact-Nexus)(Update 20/08/2019)
+    
 Daily plan:
 ```
 - Read book:05-Computer.Networking.A.TopDown.Approach.6th.Edition (30 minutes).
