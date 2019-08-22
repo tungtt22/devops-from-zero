@@ -15,7 +15,7 @@ My Plan from 19/08 to 23/08:
     - Config Java maven push artifactory to Nexus. [link](DuongHX/Push-Artifact-Nexus)(Update 20/08/2019)
   - Install Gitlab: [link](DuongHX/Gitlab) (Update 21/08/2019)
   - Create Java maven project and push to Gitlab server.[link](DuongHX/Push-To-Gitlab)(Update 21/08/2019)
-
+  - Run CI on Jenkins[link](DuongHX/Run_CI_Jenkins)(Update 22/08/2019)
 Daily plan:
 ```
 - Read book:05-Computer.Networking.A.TopDown.Approach.6th.Edition (30 minutes).
