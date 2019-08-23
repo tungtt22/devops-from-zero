@@ -3,8 +3,8 @@ Git là một trong những Hệ thống Quản lý Phiên bản Phân tán
 Trên Git, có thể lưu trạng thái của file khi có nhu cầu dưới dạng lịch sử cập nhật. Vì thế, có thể đưa file đã chỉnh sửa một lần về trạng thái cũ hay có thể hiển thị sự khác biệt ở nơi chỉnh sửa.
 Để ghi lại việc thêm/ thay đổi file hay thư mục vào repository thì sẽ thực hiện thao tác gọi là Commit. Khi thực hiện commit có yêu cầu nhập giải thích commit (commit message). Vì commit message là bắt buộc nên nếu để trống mà thực hiện thì commit sẽ thất bại.
 # 2. Workflow 
-![Workflow](Workflow.png)
 
+![Workflow](Workflow.png)
 
 # 3. Các lệnh cơ bản 
 
