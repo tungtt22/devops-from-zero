@@ -38,43 +38,43 @@ $ git branch : show tất cả các branch trong repo
 
 $ git branch [branch-name] : tạo branch mới
 
-$ git checkout [branch name] chuyển qua branch khác 
+$ git checkout [branch name]: chuyển qua branch khác 
 
-$ git merge [branch] combines branch cũ  và branch hiện tại
+$ git merge [branch]: combines branch cũ  và branch hiện tại
 
 $ git branch -d [branch name] : xoá branch
 
 **2.5 Refactor**
 
-$ git rm [file] xoá file
+$ git rm [file]: xoá file
 
 $ git rm --cached [file] : xoá file khỏi version control nhưng giữ tại local
 
-$ git rm [file-original] [file-rename] đổi tên file
+$ git rm [file-original] [file-rename]: đổi tên file
 
 **2.6 History**
 
 $ git log : xem history của branch hiện tại
 
-$ git log --flow [file] list các version của file
+$ git log --flow [file]: list các version của file
 
-$ git dif [first-branch]...[second-branch] show nội dung diff giữa 2 branch
+$ git dif [first-branch]...[second-branch]: show nội dung diff giữa 2 branch
 
-$ git show [commit] show sự thay đổi nội dung commit
+$ git show [commit]: show sự thay đổi nội dung commit
 
 **2.7 Synchronize**
 
-$ git fetch [bookmark] download all history từ repo bookmark
+$ git fetch [bookmark]: download all history từ repo bookmark
 
-$ git merge [bookmark]/[branch] combines bookmark's branch vào branch của local
+$ git merge [bookmark]/[branch]: combines bookmark's branch vào branch của local
 
-$ git push [alias] [branch] upload all local branch commit to git
+$ git push [alias] [branch]: upload all local branch commit to git
 
 $ git pull 
 
 **2.8 Redo commits**
 
-$ git reset [commit] undoes tất cả các commit sau khi [commit]
+$ git reset [commit]: undoes tất cả các commit sau khi [commit]
 
-$ git reset --hard [commit] huỷ tất cả history và quay lại [commit]
+$ git reset --hard [commit]: huỷ tất cả history và quay lại [commit]
 
