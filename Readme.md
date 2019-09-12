@@ -1,32 +1,30 @@
 # DevOps from Zero
 
-My Plan from 19/08 to 23/08:
-```
-- Install jenkins.
-- Install Nexus.
-  - Config Java maven push artifactory to Nexus.
-- Install Gitlab.
-  - Create Java maven project and push to Gitlab server.
-- Run CI on jenkins.
-```
-- Link to task:
-  - Install Jenkins: [link](DuongHX/Install_Jenkins)(Update 19/08/2019)
-  - Install Nexus: [link](DuongHX/Install_Nexus)(Update 20/08/2019)
-    - Config Java maven push artifactory to Nexus. [link](DuongHX/Push-Artifact-Nexus)(Update 20/08/2019)
-  - Install Gitlab: [link](DuongHX/Gitlab) (Update 21/08/2019)
-  - Create Java maven project and push to Gitlab server.[link](DuongHX/Push-To-Gitlab)(Update 21/08/2019)
-  - Run CI on Jenkins: [link](DuongHX/Run_CI_Jenkins)(Update 22/08/2019)
-  - Create the process for a team development work with DevOps: [link](DuongHX/Process)(Update 24/08/2019)
+Mỗi member sẽ tạo một thư mục riêng theo tên account của mình. Trong mỗi thư mục có file `Readme.md` trong đó ghi rõ plan của mình và thời gian hoàn thành.
 
-Daily plan:
+Tương ứng sẽ các bài học sẽ là một file `MD` riêng.
+
+Ví dụ: Tùng có các task như sau:
+
 ```
-- Read book:05-Computer.Networking.A.TopDown.Approach.6th.Edition (30 minutes).
-- Learn japanese. (2 hours)
+- Learning Agile
+- Learn LPI
+   - Install Linux
+   - Linux directory structure
+   - Linux service management
+   ....
 ```
-Make dream come true (Update everyday):
- - Network. [Link](DuongHX/Network) (Last Update 20/08/2019)
- - HORENSO. [Link](DuongHX/HORENSO) (Last Update 20/08/2019)
- - SOLID.
- - KISS.
- - YAGNI.
- - DRY.
+
+Vâỵ thì phần bài tập của Tùng sẽ như sau:
+
+```
+devops-from-zero
+      |
+      |- Tung
+          |- 1.agile.md
+          |- 2.LPI
+              |-install_linux.md
+              |-directory_structure.md
+              |-service_management.md
+              .....
+```
