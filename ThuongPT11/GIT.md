@@ -34,44 +34,32 @@ QUESTION:
 - có mấy kiểu rebase, so sánh, và dùng nó trong trường hợp nào , dùng cách nào tiện , lợi hơn .
 - merge : khi merge bị conflict thì xử lý như thế nào ?
 - pull request / merge request hiểu như thế nào ?
-
-
 ---------------
-
 ANSWER  
-* Checkout như thế nào là pass: git checkout nhảy sang branch mới thành công. Khi checkout theo commit hash cụ thể, con trỏ sẽ nhảy sang branch state có chứa commit hash. Nếu GIT bị merge conflict: 
+* Checkout như thế nào là pass: git checkout nhảy sang branch mới thành công. Khi checkout theo commit hash cụ thể, con trỏ sẽ nhảy sang branch state có chứa commit hash (Khi đó commit trên client và trên git server là giống nhau từ commit đến nội dung file. Sẽ có trường hợp checkout về commit giống nhau nhưng souce ko giống => cần reset source ở local branch và pull lại). Nếu GIT bị merge conflict:
+  * Khi bị conflict thì cần phải sửa các conflict đó. Conflict không tránh được nhưng có thể làm giảm số lượng conflict xuống bằng các rebase thường xuyên 
   * có thể rollback lại state commit trước đó bằng **--amend**
   * Hoặc checkout theo mã hash trước khi bị conflict
 * Xem branch local/remote: **git remote show origin**
   Không nhất thiết mọi branch remote là origin, origin chỉ là cái tên default, có thể xem/custom current remote bằng lệnh: **git remote -v** AND **git remote rename thuongpt11 origin**
   Nếu muốn chỉ pull code về mà không push code lên được, em nghĩ là nên set repo private thay vì public, và từ đó set quyền contributor, phần này liên quan permissions, **cần tìm hiểu thêm** phần settings của repo + team( phần này tốn xèng nên có thời gian phải nghịch git3 để tìm tương tự). Hiện tại vd git3 grant quyền develop cho devopssupport (nhiều lúc dự án grant nhầm quyền read access).
   **Push code lên một repo A, branch Abr; chuyển code sang repo B, branch Bbr: ** Đang ngâm link này nhưng chưa hiểu lắm:https://stackoverflow.com/questions/2428137/how-to-rebase-one-git-repository-onto-another-one/2428224#2428224
-
 * commit 1 file trong 100 file: git add+ tên file ;add file vào danh sách chờ để thông báo sẽ commit file nào lên tiếp theo
   anh không muốn push 1 file cố định tại mọi lần push thì làm thế nào( bỏ qua file đó ). ? : chạy lệnh **git rm --cached tên_file_exclude** để .gitignore sẽ không theo dõi file này trong danh sách chờ(git add), sau đó thực hiện commit và push như thường
-
 * Git log: một file lưu lại lịch sử chỉnh sửa, người chỉnh sửa đã note sửa gì, có các commit hash nữa. Git log show chỉ mặt điểm tên nên có lỗi thì sẽ trace và ping người chỉnh sửa nhanh hơn, đồng thời có thể rollback lại state ổn với mã hash.
-
 * Rebase: em đang hiểu ở đây nó được sử dụng để backup một branch cũ, tạo mới 1 branch từ đó; kiểu lấy code để release với khách hàng/ phát triển chức năng mới. Các kiểu rebase, so sánh: Git Rebase Standard vs Git Rebase Interactive
-
   * Git Rebase Standard: các thông số đã đc set sẵn( for example an ID, a branch name, a tag, or a relative reference to HEAD), rebase nhanh hơn, thuận lợi nếu bê cả branch
   * Git Rebase Interactive: kiểu manual, chọn từng file để rebase, có thể set lại các thông số, kiểm soát quản lý chặt chẽ hơn
   * https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
 * Merge:
   Git status xem phần conflict, vào phần file source code bị conflict được đề cập ở HEAD chỉnh sửa, sau đó thực hiện git add và thực hiện git commit lại. 
 * git pull = fetch + merge 
-
 -----------------------
 LESSION LEARN
-
-* Rảnh quá là không tập trung được : ))
+* Rảnh quá là không tập trung được :))
 * Đùa thôi nhưng em chưa thông não xong cơ chế GIT branching, với workflow của nó
 * Cũng đẩy/get được vài file xàm xàm với GIT
 * Chưa nghịch GIT command bao giờ nên mới vọc cũng hơi ngượng tay, tính ra thì được cái deadline thì có động lực hẳn, cơ mà lúc tìm hiểu đang thiếu mục tiêu hoàn thành, nên cũng hơi mông lung.
 * Highlight recommended link from **cs50**: 
   https://www.youtube.com/watch?v=eulnSXkhE7I
   https://www.youtube.com/watch?v=dAHgwd2U0Jg
-
-
-
-

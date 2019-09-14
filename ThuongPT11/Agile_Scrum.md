@@ -8,50 +8,23 @@
      style="float: left; margin-right: 600px;" />
    
    * Agile bao gồm 4 giá trị chính: 
-     * <em> **Individuals and interactions** over processes and tools</em>
-     * <em> **Working software** over comprehensive documentation</em>
-     * <em> **Customer collaboration** over contract negotiation</em>
-     * <em> **Responding to change** over following a plan</em>
+     * <em> **Cá nhân và sự tương tác** hơn là quy trình và công cụ</em>
+     * <em> **Phần mềm chạy tốt** hơn là tài liệu đầy đủ</em>
+     * <em> **Cộng tác với khách hàng** hơn là đàm phán hợp đồng</em>
+     * <em> **Phản hồi với sự thay đổi** hơn là bám theo kế hoạch</em>
    * và 12 nguyên lý sau
-     * Our highest priority is to satisfy the customer
-      through early and continuous delivery
-      of valuable software.
-     *  Welcome changing requirements, even late in 
-      development. Agile processes harness change for 
-      the customer's competitive advantage.
-     *  Deliver working software frequently, from a 
-      couple of weeks to a couple of months, with a 
-      preference to the shorter timescale.
-
-     * Business people and developers must work 
-      together daily throughout the project.
-
-     * Build projects around motivated individuals. 
-      Give them the environment and support they need, 
-      and trust them to get the job done.
-
-     * The most efficient and effective method of 
-      conveying information to and within a development 
-      team is face-to-face conversation.
-
-     * Working software is the primary measure of progress.
-
-     * Agile processes promote sustainable development. 
-      The sponsors, developers, and users should be able 
-      to maintain a constant pace indefinitely.
-
-     * Continuous attention to technical excellence 
-      and good design enhances agility.
-
-     * Simplicity--the art of maximizing the amount 
-      of work not done--is essential.
-
-     * The best architectures, requirements, and designs 
-      emerge from self-organizing teams.
-
-     * At regular intervals, the team reflects on how 
-      to become more effective, then tunes and adjusts 
-      its behavior accordingly.
+     * Thỏa mãn yêu cầu của khách hàng thông qua việc giao hàng sớm và liên tục
+     *  Giao phần mềm chạy được cho khách hàng một cách thường xuyên (giao hàng tuần hơn là hàng tháng)
+     *  Chào đón việc thay đổi yêu cầu, thậm chí là những thay đổi yêu cầu muộn
+     * Nhà kinh doanh và kỹ sư lập trình phải làm việc cùng nhau hàng ngày trong suốt dự án
+     * Các dự án được xây dựng xung quanh những cá nhân có động lực. Cung cấp cho họ môi trường và sự hỗ trợ cần thiết, và tin tưởng họ để hoàn thành công việc
+     * Trao đổi trực tiếp mặt đối mặt là phương pháp hiệu quả nhất để truyền đạt thông tin
+     * Phần mềm chạy được là thước đo chính của tiến độ
+     * Phát triển bền vững và duy trì được nhịp độ phát triển liên tục
+     * Liên tục quan tâm đến kĩ thuật và thiết kế để cải tiến sự linh hoạt
+     * Sự đơn giản là cần thiết – nghệ thuật tối đa hóa lượng công việc chưa hoàn thành
+     * Nhóm tự tổ chức
+     * Thích ứng thường xuyên với sự thay đổi
    * Khi nhìn vào sơ đồ của Agile, ta nhận thấy một số đặc điểm nổi bật sau:<img src="https://www.sam-solutions.com/blog/wp-content/uploads/2018/07/AGILE@2x.png"/>
      * Dự án được phân chia thành các module nhỏ hơn, bao gồm 6 bước từ bước launch, plan cho đến bước code được lặp đi lặp lại; các chu kì có tính nối tiếp, chuyển giao liên tục và đổi mới
      * Các module có kích cỡ bằng nhau giúp đỡ cho việc kiểm soát, điềù tiết một cách dễ dàng hơn
@@ -62,7 +35,7 @@
    * <img src="https://brainhub.eu/blog/wp-content/uploads/2018/04/differences-lean-agile-scrum-scrum-process.jpg"/>
    * Scrum bao gồm những thành phần chính sau:
      * Product owner (PO): người đưa ra những yêu cầu, đánh giá, xem xét mức độ ưu tiên của từng module dự án
-     * Development Team: đội thực thi requirement thành functions của hệ thống
+     * Development Team: đội thực thi requirement thành functions của hệ thống.Không phân biệt dev và test, các member trong team đều là developer.
      * Product backlog: được hiểu như requirement, để tóm tắt những yêu cầu khách hàng đưa ra cho bên phát triển
      * Sprint planning meeting: đây là cuộc họp giữa PO và Dev team để làm rõ, thống nhất product backlog; estimate thời gian cho từng sprint
      * Sprint backlog: là kết quả kết hợp requirement và meeting, tạo ra **TO DO list**
@@ -73,10 +46,7 @@
   * https://en.wikipedia.org/wiki/Scrum_(software_development)
   * https://en.wikipedia.org/wiki/Agile_software_development
   * https://agilemanifesto.org/
-  * https://itviec.com/blog/agile-la-gi-scrum-la-gi/ 
-
-
-
+  * https://itviec.com/
 
 
 
